@@ -1,4 +1,4 @@
-/*import { HomeView } from "./componentes/HomeView/HomeView";*/
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./componentes/NavBar/NavBar";
 import { ItemListContainer} from "./componentes/Container/ItemListContainer";
 
@@ -7,7 +7,7 @@ function App() {
     <>
      <NavBar/>
     
-    <ItemListContainer titulo="PRIMER TITULO" contenido="Parrafo" />
+    <ItemListContainer />
     </>
   );
 }
