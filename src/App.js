@@ -10,10 +10,17 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom'
+import { CartProvider} from "./context/CartContext"
+import { CartScreen} from "./componentes/Cart/Cart"
+
 
 function App() {
   return (
     <>
+
+    <CartProvider>
+
+
     <BrowserRouter>
     
         <NavBar/>
@@ -21,7 +28,7 @@ function App() {
        
 
         <Switch>
-        <Route exact path="/Home">
+        <Route exact path="/">
              <HomePag/>
           </Route>
 
@@ -33,7 +40,7 @@ function App() {
               <ItemListContainer />
           </Route>
 
-          <Route exact path="/Machos/:itemId">
+          <Route exact path="/Detail/:itemId">
           <ItemDetailContainer />
           
         </Route>
@@ -44,8 +51,7 @@ function App() {
           </Route>
 
           <Route exact path="/cart">
-            {/* TODO: hacer vista carrito */}
-            <h2>Carrito</h2>
+               < CartScreen/>
           </Route>
 
           <Route path="*">
@@ -57,6 +63,10 @@ function App() {
         </Switch>
 
     </BrowserRouter>
+    
+    
+    </CartProvider>
+
     </>
 
   );
