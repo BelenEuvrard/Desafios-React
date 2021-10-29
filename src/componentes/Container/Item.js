@@ -17,7 +17,7 @@ export const Item = ( {id, nombre, descripcion, edad,category,img} ) => {
                <p className= "card-title"> Edad: {edad} años</p>
                <p className= "card-title"> Categoria: {category}</p>
                <Link to={`/detail/${id}`}>
-                    <Button className="" variant="primary">Adoptar</Button>
+                    <Button  variant="primary">Adoptar</Button>
                 </Link>
             </div>   
           </div>

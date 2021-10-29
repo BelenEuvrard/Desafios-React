@@ -14,7 +14,7 @@ export const ItemDetailContainer = () => {
         setLoading(true);
 
         const db = getFirestore()
-        const productos = db.collection('productos')
+        const productos = db.collection('Productos')
         const item = productos.doc(itemId)
 
         item.get()
