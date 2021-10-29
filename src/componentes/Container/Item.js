@@ -7,7 +7,9 @@ import './ItemListContainer.css';
 export const Item = ( {id, nombre, descripcion, edad,category,img} ) => {
 
     return (
-        <div className= "card m-3 "  style={{ width: '20rem' }} >
+     
+     
+        <div className= "card m-3"  style={{ width: '15rem', height: '25rem' }} >
           <div className="card-body bg-light text-dark "> 
             <img src={img} width="90rem" height="100rem"alt= {`${nombre} ${descripcion}`} className="card-img-top"></img>
                <p className= "card-title">{nombre}</p>
@@ -15,12 +17,13 @@ export const Item = ( {id, nombre, descripcion, edad,category,img} ) => {
                <p className= "card-title"> Edad: {edad} años</p>
                <p className= "card-title"> Categoria: {category}</p>
                <Link to={`/detail/${id}`}>
-                    <Button variant="primary">Adoptar</Button>
+                    <Button className="" variant="primary">Adoptar</Button>
                 </Link>
-               
+            </div>   
           </div>
-        </div>  
-      
+       
+     
+    
 
 
     )

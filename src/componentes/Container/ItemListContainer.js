@@ -1,7 +1,8 @@
 import React,{useEffect,useState} from "react";
-import { useParams } from 'react-router'
+import { useParams } from 'react-router-dom'
 import { ItemList } from '../Container/ItemList'
-import { fetchItems } from '../../Helpers/fetchItems'
+
+import { getFirestore } from '../../firebase/configuracion'
 
 
 export const ItemListContainer = ( ) => {
@@ -12,25 +13,30 @@ export const ItemListContainer = ( ) => {
     const {categoryId} = useParams()
 
     useEffect(()=>{ 
-        setLoading(true)
+       setLoading(true)
+       const db = getFirestore();
+       const productos = categoryId
+         ? db.collection('productos').where('category', '==', categoryId)
+         : db.collection('productos');
+   
+         productos.get()
+         .then((response) => {
+             const newItems = response.docs.map((doc) => {
+                 return {id: doc.id, ...doc.data()}
+             })
 
-        fetchItems()
-        .then((res) => {
-            if (categoryId) {
-                setItems(res.filter((prod) => prod.category === categoryId));
-              } else {
-                setItems(res);
-              }
-            })
+             setItems(newItems)
+             console.log(newItems)
+         })
+         .catch( err => console.log(err))
+         .finally(() => {
+             setLoading(false)}
+         )
+     
+ }, [categoryId, setLoading])
 
-            
-            .catch( err => console.log(err))
-            .finally( () => {
-                setLoading(false)
-            })
-
-    }, [categoryId])
-
+     
+   
 
     return (
         <section className="item-card-section">
@@ -43,4 +49,4 @@ export const ItemListContainer = ( ) => {
     )
 }
 
-
+    

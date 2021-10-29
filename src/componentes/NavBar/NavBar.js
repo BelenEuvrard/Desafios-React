@@ -10,7 +10,7 @@ export const NavBar = () => {
         
 
             
-             <nav>
+        <nav className="bg-black">
               
                    <div className="navLista"> 
                   <h1> Mi App </h1> 
