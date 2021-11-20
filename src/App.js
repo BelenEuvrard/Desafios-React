@@ -12,6 +12,7 @@ import {
 } from 'react-router-dom'
 import { CartProvider} from "./context/CartContext"
 import { CartScreen} from "./componentes/Cart/Cart"
+import { Checkout} from "./componentes/Checkout/Checkout"
 
 
 function App() {
@@ -52,6 +53,9 @@ function App() {
 
           <Route exact path="/cart">
                < CartScreen/>
+          </Route>
+          <Route exact path="/checkout">
+               < Checkout />
           </Route>
 
           <Route path="*">

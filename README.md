@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Mi primer App con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Creditos
 
-## Available Scripts
+- **Academy:** CoderHouse.
+- **Course:** React JS.
+- **Author**: Belén Euvrard.
+- **Profesor**: Conrado Lanusse .
+- **Tutor**: Flavio Di Pietro.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sobre el proyecto
 
-### `npm run build`
+Mi App emula un sitio web dedicado a la adopción responsable de mascotas, generando la misma una donacion para que la organización siga cumpliendo su misión y así generar mas adopciones.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Características
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- plantillas
 
-### `npm run eject`
+![Captura home](https://user-images.githubusercontent.com/81482921/142709872-8163d9bb-5bd4-476a-b6ed-e12fcc4f7222.JPG)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Captura adopciones](https://user-images.githubusercontent.com/81482921/142710004-27a2cd6b-4f18-4a7a-8cac-e487cb6d48b2.JPG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<hr/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- React-router-dom
+- Firebase v8.10.0
+- Sweet Alert 2
+- Bootstrap 4.6.x
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<hr/>
 
-### Analyzing the Bundle Size
+## Sobre las Dependencias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- React-router-dom
+  <br/>Para fines de navegación.
+  <br/>+info: https://reactrouter.com/web/guides/quick-start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Sweet Alert 2
+<br/> Un reemplazo accesible, personalizable y receptivo para los cuadros emergentes de javascript
+<br/>+info: https://sweetalert2.github.io
 
-### Advanced Configuration
+- Bootstrap 4.6.x
+ <br/> Diseña y personaliza tus sitios,es el kit de herramientas de código abierto de front-end más popular del mundo
+ <br/>+info: https://getbootstrap.com/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  
+<hr/>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Comparte 🎁
+Gracias a él profesor Conrado Lanusse por su dedicación a la enseñanza, hace la diferencia en este tipo de cursos cuando se ve a una persona apasionada por lo que hace y al tutor Flavio Di Pietro por el apoyo constante y la predisposición 🤓.
+Comenta a otros sobre este proyecto,Saludos 📢
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

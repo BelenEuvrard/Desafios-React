@@ -19,7 +19,7 @@ export const HomePag = () => {
                        
                         <p className="ml-5 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, maxime.</p>
                         
-                        <a href="#" className=" btn btn-outline-secondary header-btn btn-lg mt-2">Read More</a>
+                        
                       
                       </div>
                     </div>

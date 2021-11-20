@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0db80428.chunk.css",
+    "main.js": "/static/js/main.37bcc97e.chunk.js",
+    "main.js.map": "/static/js/main.37bcc97e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1920ab79.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1920ab79.js.map",
+    "static/css/2.f2512455.chunk.css": "/static/css/2.f2512455.chunk.css",
+    "static/js/2.e80fe622.chunk.js": "/static/js/2.e80fe622.chunk.js",
+    "static/js/2.e80fe622.chunk.js.map": "/static/js/2.e80fe622.chunk.js.map",
+    "static/js/3.b099e2aa.chunk.js": "/static/js/3.b099e2aa.chunk.js",
+    "static/js/3.b099e2aa.chunk.js.map": "/static/js/3.b099e2aa.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.0db80428.chunk.css.map": "/static/css/main.0db80428.chunk.css.map",
+    "static/js/2.e80fe622.chunk.js.LICENSE.txt": "/static/js/2.e80fe622.chunk.js.LICENSE.txt",
+    "static/media/adopcion perro.44a6e5d8.jpg": "/static/media/adopcion perro.44a6e5d8.jpg",
+    "static/media/carrito-de-compras.fe3c130d.png": "/static/media/carrito-de-compras.fe3c130d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1920ab79.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.e80fe622.chunk.js",
+    "static/css/main.0db80428.chunk.css",
+    "static/js/main.37bcc97e.chunk.js"
+  ]
+}

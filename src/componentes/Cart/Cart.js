@@ -21,7 +21,7 @@ export const CartScreen = () => {
                  </>
                 :
                     <>
-                        <h2>Resumen de compra</h2>
+                        <h2>Resumen de su Colaboración</h2>
                         <hr/>
 
                         {
@@ -42,11 +42,14 @@ export const CartScreen = () => {
                         <h3 className="my-3">Donación total: ${calcularTotal()}</h3>
                         <p>Tu donación ayuda a seguir rescantando mas perritos</p>
                         <button
-                            className="btn btn-danger btn-sm"
+                            className="btn btn-danger btn-sm mx-3"
                             onClick={vaciarCarrito}
                         >
                             Vaciar carrito
                         </button>
+                        <Link to="/Checkout" className="btn btn-success btn-sm">
+                        Terminar mi adopción
+                        </Link>
                     </>
             } 
 
